@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VenueEase</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed w-full z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-pink-600">VenueEase</h1>
+      <div class="space-x-6 font-medium text-gray-600">
+        <a href="#home" class="hover:text-pink-600">Home</a>
+        <a href="about.html" class="hover:text-pink-600">About</a>
+        <a href="features.html" class="hover:text-pink-600">Features</a>
+        <a href="team.html" class="hover:text-pink-600">Team</a>
+        <a href="contact.html" class="hover:text-pink-600">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Spacer -->
+  <div class="h-20"></div>
+
+  <!-- Home Section -->
+  <section id="home" class="bg-cover bg-center min-h-[80vh] flex items-center justify-center px-4 text-white text-center"
+           style="background-image: url('Images/img1.jpeg');">
+    <div class="bg-black bg-opacity-60 p-10 rounded-xl max-w-3xl">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Welcome to VenueEase</h1>
+      <p class="text-lg">Your one-stop solution for venue booking and event planning.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="py-16 px-4 md:px-16 bg-gray-50 text-center">
+    <h2 class="text-3xl font-bold mb-10 text-gray-800">What Would You Like to Do?</h2>
+    <div class="flex flex-col md:flex-row gap-10 justify-center">
+      <!-- Book Venue -->
+      <div class="bg-white shadow-lg rounded-lg p-6 w-full md:w-1/3 hover:shadow-2xl transition">
+        <img src="Images/img2.jpeg" class="w-full h-48 object-cover rounded" alt="Book Venue" />
+        <h3 class="text-xl font-semibold mt-4">Book a Venue</h3>
+        <p class="text-gray-600 mt-2">Find the perfect venue for your special occasion.</p>
+        <a href="venues.html" class="mt-4 inline-block bg-pink-500 hover:bg-pink-600 text-white py-2 px-6 rounded-full">Search Venues</a>
+      </div>
+
+      <!-- Plan Event -->
+      <div class="bg-white shadow-lg rounded-lg p-6 w-full md:w-1/3 hover:shadow-2xl transition">
+        <img src="Images/img3.jpeg" class="w-full h-48 object-cover rounded" alt="Plan Event" />
+        <h3 class="text-xl font-semibold mt-4">Plan an Event</h3>
+        <p class="text-gray-600 mt-2">We help you manage every detail of your event.</p>
+        <a href="#contact" class="mt-4 inline-block bg-pink-500 hover:bg-pink-600 text-white py-2 px-6 rounded-full">Get Started</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer with Social Icons -->
+  <footer class="bg-gray-900 text-white pt-10">
+    <div class="max-w-7xl mx-auto px-6 md:px-12">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
+        
+        <!-- Contact Info -->
+        <div>
+          <h3 class="text-2xl font-bold text-pink-500">VenueEase</h3>
+          <p class="text-gray-400 mt-2">Your venue, your way.</p>
+          <div class="flex items-center text-gray-400 mt-2">
+            <img src="Images/location.png" alt="Location" class="w-5 h-5 mr-2" />
+            New Delhi, India
+          </div>
+          <div class="flex items-center text-gray-400 mt-1">
+            <img src="Images/call.png" alt="Phone" class="w-5 h-5 mr-2" />
+            +91 9876543210
+          </div>
+          <div class="flex items-center text-gray-400 mt-1">
+            <img src="Images/mail.png" alt="Email" class="w-5 h-5 mr-2" />
+            contact@venueease.com
+          </div>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="mt-6 md:mt-0">
+          <h4 class="text-lg font-semibold mb-2">Follow Us</h4>
+          <div class="flex space-x-4 mt-2">
+            <a href="https://www.facebook.com/venueease" target="_blank">
+              <img src="Images/facebook.png" alt="Facebook" class="w-6 h-6 hover:opacity-70" />
+            </a>
+            <a href="https://www.instagram.com/venueease" target="_blank">
+              <img src="Images/insta.png" alt="Instagram" class="w-6 h-6 hover:opacity-70" />
+            </a>
+            <a href="https://www.twitter.com/venueease" target="_blank">
+              <img src="Images/x.png" alt="Twitter" class="w-6 h-6 hover:opacity-70" />
+            </a>
+            <a href="https://www.linkedin.com/company/venueease" target="_blank">
+              <img src="Images/linkedln.png" alt="LinkedIn" class="w-6 h-6 hover:opacity-70" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
+        <p>&copy; 2025 VenueEase. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
